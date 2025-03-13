@@ -1,15 +1,23 @@
-<!DOCTYE HTML> 
-<html>LONG="PT-BR">
-<head>
-<TITLE> SINTAXE BASICA </TITLE>
-<
-LINK real="STYLESHEET"tYPE =text/CSS">
-<script></script>
-<script></script>
-<!script>
-< /HEAD>
-</BODY>
-</HEAD>  
+<!DOCTYPE html>
+<html lang="pt-br">              
+    <head>
+        <title>sintaxe basica</title>
+        <link rel="stylesheet" type="text/css">
+        <script src="jquery.js"></script>
+        <script>
 
+        </script>
+        <style>
+            .site{
+                width:;
+                height:;
+                background-color:;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="site">
 
-<?
+        </div>
+    </body>
+</html>
