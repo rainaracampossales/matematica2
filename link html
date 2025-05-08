@@ -9,6 +9,20 @@
         </script>
     </head>
     <body>
-
+        <ul>
+         <li><a href="">google</a></li>
+         <li><a> kwai</a></li>
+         <li><a>href= facebook </a></li>
+         <li><a>instagram </a></li>
+         <li><a>tik tok </a ></li>
+         <li><a> kwai</a></li>
+        </ul>
+        <ol>
+            <li>google</li>
+            <li>faceboook </li>
+            <li>instagram </li>
+            <li>tik tok </li>
+            <li>tik tok </li>
+        </ol>
     </body>
-</html>
+    </html>
