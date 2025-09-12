@@ -1,0 +1,96 @@
+//variaveis campo
+let xcampo=0;
+let ycampo=0;
+let larguracampo=600;
+let alturacampo=400;
+//variaveis da linha de meio campo 
+let xmei0campo=300;
+let ymeiocampo=0;
+let larguracampo=0;
+let altueameiocampo=400;
+//variaveis do circulo central 
+let xcriculocentral=300;
+let ycirculocentral=200;
+let diametrocirculocentral=150;
+//variaveis  da marca central 
+let xmarcacentral=300;
+let ymarcacentral=200;
+let diametromarcacentral=10;
+//variaveis da linha grande area
+let xminhagrandearea=0;
+let yminhagrandearea=80;
+let larguraminhagranderarea=100;
+alturaminhagrandearea=240;
+//varaveis da area adversaria 
+let xgrandeareaadversaria=500;
+let ygrandeareaadversaria=80;
+let largurandeareaadversaria=100;
+let alturagrandeareaadversaria=240;
+//varaveis de minha  grande area
+let xminhagrandearea=0;
+let yminhagrandearea=80;
+let larguraminhagrandearea =100;
+let alturaminhagrandearea=240;
+//varaveis da area adversaria
+let xgrandeareaadversaria=500;
+let ygrandeareaadversaria=80;
+let larguragrandeareaadversaria=100;
+let alturagrandeareaadversaria=240;
+//varaveis da minha pequena area
+let xminhapequenaarea=o;
+let yminhapequenaaarea=120;
+larguraminhapequenaaarea=60;
+alturaminhapequenaarea=160;
+//variaveis de pequena area adversaria
+let xpequnaareaadversaria=540;
+let ypequenaareaadversaria=120;
+let largurapequenaareaadversaria=60;
+let alturapequenaareaaadversaria=160;
+let xmeugol=0;
+let ymeugol=160;
+let largurameugol=10;
+let alturameugol=80;
+let xgoladversario=590;
+let ygoladversario=160;
+let larguragoladversario=10;
+let alturagoladversario=80;
+let xmarcapenal1=80;
+let ymarcapenal1=200;
+let dimaetromarcapena11=10;
+let xmarcapenal2=520;
+let ymarcapenal2=200;
+let dimetromarcapenal2=10;
+fucttion setup(){
+createcanvas(600,400);
+}
+fuction draw(){
+background(220);
+campo();
+circulocentral();
+marcacentral();
+meiocampo();
+minhagrandearea();
+grandereaadversaria();
+minhapequenaarea();
+pequenaareaadversaria();
+meugol();
+goladversario();
+marcapenal1();
+marcapenal2();
+}
+fuction campo(){
+fill("green");
+stroke("white");
+rect (xmeiocampo,ymeiocampo,largurameiocampo,alturameiocampo);
+}
+fuction meiocampo(){
+fil("#f8f6f6");
+stroke ("white");
+rec (xmeiocampo,ymeiocampo,largurameiocampo,alturaneiocampo);
+}
+fuction circulocentral(){
+fill ("green");
+stroke ("white");
+circle (xcirculocentral,ycirculocentral,diametrocirculocentral);
+
+
