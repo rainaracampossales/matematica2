@@ -1,0 +1,45 @@
+//bandeira da alemanha
+
+//variaveis do retangulo1
+let xretangulo1 = 0;
+let yretangulo1 = 0;
+let larguraretangulo1 = 600;
+let alturaretangulo1 = 100;
+
+//variaveis do retangulo2
+let xretangulo2 = 0;
+let yretangulo2 = 100;
+let larguraretangulo2 = 600;
+let alturaretangulo2 = 100;
+
+//variaveis do retangulo3
+let xretangulo3 = 0;
+let yretangulo3 = 200;
+let larguraretangulo3 = 600;
+let alturaretangulo3 = 100;
+
+function setup() {
+  createCanvas(600, 300);
+}
+
+function draw() {
+  background(220);
+  retangulo1();
+  retangulo2();
+  retangulo3();
+}
+
+function retangulo1(){
+  fill("#0F0E0E");
+  rect(xretangulo1, yretangulo1, larguraretangulo1, alturaretangulo1);
+}
+
+function retangulo2(){
+  fill("#EF0909");
+  rect(xretangulo2, yretangulo2, larguraretangulo2, alturaretangulo2);
+}
+
+function retangulo3(){
+  fill("#F1F508");
+  rect(xretangulo3, yretangulo3, larguraretangulo3, alturaretangulo3);
+}
